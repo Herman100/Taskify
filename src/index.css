@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#layout {
+  min-height: 100vh;
+  display: flex;
+}
+
+.header {
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.outlet {
+  flex-grow: 1;
+}
