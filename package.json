@@ -2,7 +2,6 @@
   "name": "taskify-project",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://herman100.github.io/Taskify/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",

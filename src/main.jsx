@@ -20,6 +20,7 @@ import Login from "./components/UserAuth/Login";
 import AuthContextProvider from "./contexts/AuthContextProvider";
 import Settings from "./components/ProfileSettings/Settings";
 import ForgotPassword from "./components/UserAuth/ForgotPassword";
+import Spotify from "./components/Spotify/Spotify";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -28,12 +29,13 @@ const router = createBrowserRouter(
       <Route index path="/login" element={<Login />} />
       <Route index path="/reset" element={<ForgotPassword />} />
       <Route path="/" element={<Layout />}>
-        <Route index path="Taskify" element={<Home />} />
+        <Route index path="" element={<Home />} />
         <Route index path="create" element={<CreateTodo />} />
         <Route index path="personal" element={<Personal />} />
         <Route index path="work" element={<Work />} />
         <Route index path="completed" element={<CompletedTasks />} />
         <Route index path="settings" element={<Settings />} />
+        <Route index path="spotify" element={<Spotify />} />
       </Route>
       <Route path="*" element={<Error />} />
     </>

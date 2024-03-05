@@ -24,7 +24,7 @@ export default function SignUp() {
       setError("");
       setLoading(true);
       await login(emailRef.current.value, passwordRef.current.value);
-      navigate("/Taskify/");
+      navigate("/");
       passwordRef.current.value = "";
       emailRef.current.value = "";
     } catch (error) {

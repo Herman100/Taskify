@@ -24,7 +24,7 @@ function MenuList({ theme }) {
     };
   };
   const menuItems = [
-    getItem("Home", "/Taskify/", <HomeOutlined />),
+    getItem("Home", "/", <HomeOutlined />),
     getItem("Tasks", "sub1", <ScheduleOutlined />, [
       getItem("Create", "create", <MdCreateNewFolder />),
       getItem("Work", "work", <ImOffice />),

@@ -55,9 +55,19 @@ button {
   text-decoration: none;
   color: #000;
   font-size: 14px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+  height: auto;
+  margin-left: 20px;
 }
 
-button:hover {
+.link:hover {
   color: #fff;
   background-color: #2c4acf;
 }

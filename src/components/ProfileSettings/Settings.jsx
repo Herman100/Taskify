@@ -51,16 +51,10 @@ function Settings() {
                 <input
                   type="email"
                   id="currentEmail"
-                  placeholder={currentUser.email}
+                  placeholder={currentUser && currentUser.email}
                   disabled
                   className={styles.disabled}
                 />
-                {/* <label htmlFor="newEmail">New Email</label>
-                <input
-                  type="email"
-                  id="newEmail"
-                  placeholder="update email address"
-                /> */}
               </div>
               <div className={styles.form_group}>
                 <label htmlFor="oldpassword">Old Password</label>

@@ -1,6 +1,6 @@
 import { Layout, Switch, theme } from "antd";
 import { SunOutlined, MoonFilled } from "@ant-design/icons";
-import { useState, useEffect } from "react"; // import useEffect
+import { useState, useEffect } from "react";
 import Avatar from "./Avatar";
 import Logo from "./Logo";
 import MenuList from "./MenuList";

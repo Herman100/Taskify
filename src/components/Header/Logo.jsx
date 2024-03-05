@@ -5,13 +5,14 @@ import taskifylogoicon from "./assets/taskifylogoicon.svg";
 export default function Logo({ theme, collapsed }) {
   const navigate = useNavigate();
   function handleLogoClick() {
-    navigate("/Taskify/");
+    navigate("/");
   }
 
   const styles = {
     height: "75px",
     margin: "10px 0",
     width: "100%",
+    cursor: "pointer",
     filter:
       theme === "dark"
         ? "invert(100%) sepia(100%) saturate(0%) hue-rotate(78deg) brightness(101%) contrast(103%)"

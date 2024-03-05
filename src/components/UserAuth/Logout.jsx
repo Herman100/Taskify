@@ -10,7 +10,7 @@ function Logout() {
   async function logoutUser() {
     try {
       await logout();
-      navigate("/login");
+      navigate("/");
     } catch (error) {
       console.log(error);
     }
